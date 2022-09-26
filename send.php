@@ -10,7 +10,7 @@ if(isset($_POST['submit']) && !empty($_POST['sugestao'])){
             $foto = 'nenhuma';
         } 
         else {
-            $target_dir = "/fotos/";
+            $target_dir = "https://github.com/gili-julio/sugestao/tree/main/fotos/";
             $target_file = $target_dir . basename($_FILES["foto"]["name"]);
             move_uploaded_file($_FILES["foto"]["tmp_name"], $target_file);
             $foto = basename($_FILES["foto"]["name"]);
