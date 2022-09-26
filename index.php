@@ -48,7 +48,7 @@
                 <br>
                 <textarea class="form-control" name="sugestao" rows="3"></textarea>
                 <br>
-                <input style="display: none;" type="file" name="foto" accept=".jpg,.gif,.png,.jpeg" >
+                <input style="width: 50;" type="file" name="foto" accept=".jpg,.gif,.png,.jpeg" >
                 <br>
                 <br>
             </div>
