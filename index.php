@@ -28,6 +28,22 @@
             padding: 30px;
             border-radius: 10px;
         }
+        .foto{
+            display: none;
+        }
+        .labelfoto{
+            color: white;
+            height: 60px;
+            width: 250px;
+            background-color: rgb(0, 128, 0, 0.8);
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .labelfoto:hover{
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -48,8 +64,8 @@
                 <br>
                 <textarea class="form-control" name="sugestao" rows="3"></textarea>
                 <br>
-                <input style="width: 50;" type="file" name="foto" accept=".jpg,.gif,.png,.jpeg" >
-                <br>
+                <label class="labelfoto" for="foto">Escolher uma foto</label>
+                <input class="foto" type="file" id="foto" name="foto" accept=".jpg,.gif,.png,.jpeg" >
                 <br>
             </div>
             <div class="text-center">
